@@ -1,0 +1,29 @@
+{
+  "TEXTHIGHLIGHT" : {
+    "background-color": "#3f4b4e"
+  },
+  "LINEHIGHLIGHT" : {
+    "background-color": "#475458"
+  },
+  "BRACEHIGHLIGHT" : {
+    "color": "#ec6025",
+    "background-color": "#3f4b4e",
+    "italic": true
+  },
+  "LINENUMBERAREA" : {
+    "background-color": "#3f4b4e",
+    "color": "#628a9a"
+  },
+  "ISSUE_WARNING" : {
+    "background-color": "#fff0c0",
+    "color": "#383a42"
+  },
+  "ISSUE_ERROR" : {
+    "background-color": "#ffc0c0",
+    "color": "#383a42"
+  },
+  "ISSUE_FATAL_ERROR" : {
+    "background-color": "#ffc0c0",
+    "color": "#383a42"
+  }
+}

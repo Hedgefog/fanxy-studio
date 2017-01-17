@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/BaseProject">
+        <file>config.json</file>
+    </qresource>
+</RCC>

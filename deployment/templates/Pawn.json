@@ -1,0 +1,91 @@
+{
+  "Completion" : [
+      "bool",
+      "Float",
+      "const",
+      "enum",
+      "native",
+      "forward",
+      "public",
+      "static",
+      "stock",
+      "operator",
+      "char",
+      "inline",
+      "true",
+      "false",
+      "switch",
+      "break",
+      "case",
+      "continue",
+      "default",
+      "goto",
+      "else",
+      "while",
+      "return",
+      "charsmax",
+      "sizeof"
+  ],
+  "Multihighlight":
+  {
+    "Comment": [
+      {
+        "Start": "/\\*",
+        "End":  "\\*/"
+      }
+    ]
+  },
+  "Highlight":
+  {
+    "Comment": [
+      "//[^\\n]*"
+    ],
+    "Preprocessor": [
+      "#[A-Za-z0-9_]+"
+    ],
+    "Char": [
+      "\"[^\"\\r\\n]*\"",
+      "'[^'\\r\\n]*'",
+	  "<[A-Za-z0-9_-]+>"
+    ],
+    "Function": [
+      "[\\w]+(?=\\s*\\()"
+    ],
+    "Type": [
+      "\\bbool\\b",
+      "\\bFloat\\b",
+      "\\bconst\\b",
+      "\\benum\\b",
+      "\\bnative\\b",
+      "\\bforward\\b",
+      "\\bpublic\\b",
+      "\\bstatic\\b",
+      "\\bstock\\b",
+      "\\boperator\\b",
+      "\\bchar\\b",
+      "\\binline\\b"
+    ],
+    "Number": [
+      "\\b\\d+\\b",
+      "\\btrue\\b",
+      "\\bfalse\\b"
+    ],
+    "Operator": [
+      "\\bnew\\b",
+      "\\bswitch\\b",
+      "\\bbreak\\b",
+      "\\bcase\\b",
+      "\\bcontinue\\b",
+      "\\bdefault\\b",
+      "\\bgoto\\b",
+      "\\bdo\\b",
+      "\\bfor\\b",
+      "\\bif\\b",
+      "\\belse\\b",
+      "\\bwhile\\b",
+      "\\breturn\\b",
+      "\\bsizeof\\b",
+      "\\bcharsmax\\b"
+    ]
+  }
+}

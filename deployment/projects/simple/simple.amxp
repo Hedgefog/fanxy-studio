@@ -1,0 +1,9 @@
+{
+    "Includes": [
+        "simple_const.inc"
+    ],
+    "Sources": [
+        "simple.sma"
+    ],
+    "_INDEX_OF_MAIN_FILE": 0
+}

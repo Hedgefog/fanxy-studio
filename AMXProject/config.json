@@ -1,0 +1,15 @@
+{
+    "extension": "amxp",
+    "syntax-template": "Pawn",
+    "type-default": "Sources",
+    "file-types": {
+        "Sources": {
+            "extension": "sma",
+            "template": "#include <amxmodx>\n\n#define PLUGIN \"{PLUGIN_NAME}\"\n#define VERSION \"1.0\"\n#define AUTHOR \"{PLUGIN_AUTHOR}\"\n\npublic plugin_init()\n{\n\tregister_plugin(PLUGIN, VERSION, AUTHOR)\n\n\t// Add your code here...\n}"
+        },
+        "Includes": {
+            "extension": "inc",
+            "dir": "include"
+        }
+    }
+}

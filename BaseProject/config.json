@@ -1,0 +1,10 @@
+{
+    "extension": "proj",
+    "syntax-template": "Base",
+    "type-default": "Files",
+    "file-types": {
+        "Files": {
+            "extension": "*"
+        }
+    }
+}

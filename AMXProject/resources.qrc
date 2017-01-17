@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/AMXProject">
+        <file>config.json</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoToDialog</class>
+ <widget class="QDialog" name="GoToDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>240</width>
+    <height>38</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Go to...</string>
+  </property>
+  <widget class="QPushButton" name="gotoButton">
+   <property name="geometry">
+    <rect>
+     <x>136</x>
+     <y>8</y>
+     <width>96</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="gotoSpin">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>8</y>
+     <width>128</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="suffix">
+    <string/>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

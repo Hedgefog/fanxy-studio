@@ -1,0 +1,8 @@
+{
+    "Skin": "Light",
+    "Font": "Courier",
+    "FontSize": 12,
+    "AutoIndent": true,
+    "AutoInsert": true,
+    "DefHighlightTemplate": "Pawn"
+}

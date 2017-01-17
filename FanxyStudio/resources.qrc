@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>config.json</file>
+        <file>icons/dark/about.png</file>
+        <file>icons/dark/build.png</file>
+        <file>icons/dark/fileadd.png</file>
+        <file>icons/dark/filenew.png</file>
+        <file>icons/dark/fileopen.png</file>
+        <file>icons/dark/fileremove.png</file>
+        <file>icons/dark/options.png</file>
+        <file>icons/dark/projectclose.png</file>
+        <file>icons/dark/projectnew.png</file>
+        <file>icons/dark/redo.png</file>
+        <file>icons/dark/run.png</file>
+        <file>icons/dark/save.png</file>
+        <file>icons/dark/search.png</file>
+        <file>icons/dark/undo.png</file>
+        <file>icons/dark/close.png</file>
+        <file>icons/light/about.png</file>
+        <file>icons/light/build.png</file>
+        <file>icons/light/close.png</file>
+        <file>icons/light/fileadd.png</file>
+        <file>icons/light/filenew.png</file>
+        <file>icons/light/fileopen.png</file>
+        <file>icons/light/fileremove.png</file>
+        <file>icons/light/options.png</file>
+        <file>icons/light/projectclose.png</file>
+        <file>icons/light/projectnew.png</file>
+        <file>icons/light/redo.png</file>
+        <file>icons/light/run.png</file>
+        <file>icons/light/save.png</file>
+        <file>icons/light/search.png</file>
+        <file>icons/light/undo.png</file>
+        <file>icons/dark/builddebug.png</file>
+        <file>icons/dark/rundebug.png</file>
+        <file>icons/light/builddebug.png</file>
+        <file>icons/light/rundebug.png</file>
+    </qresource>
+</RCC>

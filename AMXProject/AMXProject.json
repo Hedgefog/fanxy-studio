@@ -1,0 +1,7 @@
+{
+    "name" : "AMXProject",
+    "version" : "0.0.1",
+    "dependencies" : [
+        { "name" : "BaseProject", "version" : "0.0.1" }
+    ]
+}

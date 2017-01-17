@@ -1,0 +1,12 @@
+*.Release
+*.Debug
+Makefile
+Makefile.*
+*.o
+*.user
+*.exe
+*.dll
+release
+debug
+deployment/logs
+deployment/configs

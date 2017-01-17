@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingWindow</class>
+ <widget class="QDialog" name="SettingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Options</string>
+  </property>
+  <widget class="QGroupBox" name="editorGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>152</y>
+     <width>328</width>
+     <height>209</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>Editor</string>
+   </property>
+   <widget class="QComboBox" name="defaultHighlightSelectBox">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>60</y>
+      <width>216</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="defaultHighlightLabel">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>60</y>
+      <width>96</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Default highlight:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fontLabel">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>20</y>
+      <width>48</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Font:</string>
+    </property>
+   </widget>
+   <widget class="QFontComboBox" name="fontSelectBox">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>20</y>
+      <width>160</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fontSizeLabel">
+    <property name="geometry">
+     <rect>
+      <x>224</x>
+      <y>20</y>
+      <width>48</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Size:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="fontSizeSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>272</x>
+      <y>20</y>
+      <width>48</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="wrapping">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::UpDownArrows</enum>
+    </property>
+    <property name="accelerated">
+     <bool>false</bool>
+    </property>
+    <property name="keyboardTracking">
+     <bool>true</bool>
+    </property>
+    <property name="showGroupSeparator" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="maximum">
+     <number>64</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="autoIndentCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>104</y>
+      <width>96</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Auto Indent</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="autoInsertCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>136</y>
+      <width>96</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Auto Insert</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="projectPluginGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>344</x>
+     <y>8</y>
+     <width>244</width>
+     <height>352</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Project Plugin</string>
+   </property>
+   <widget class="QComboBox" name="projectPluginSelectBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>24</y>
+      <width>244</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="projectPluginSetupWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>48</y>
+      <width>244</width>
+      <height>304</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="projectPluginLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="generalGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>8</y>
+     <width>328</width>
+     <height>136</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Genreal</string>
+   </property>
+   <widget class="QComboBox" name="skinSelectBox">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>24</y>
+      <width>220</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="skinLabel">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>24</y>
+      <width>96</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Skin</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>368</y>
+     <width>128</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="applyButton">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>368</y>
+     <width>128</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

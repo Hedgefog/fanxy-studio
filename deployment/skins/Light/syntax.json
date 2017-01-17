@@ -1,0 +1,34 @@
+{
+  "Preprocessor" : {
+    "color": "#a626a4"
+  },
+  "Comment": {
+    "color": "#a0a1a7",
+    "italic": true
+  },
+  "Char": {
+    "color": "#50a14f"
+  },
+  "Function": {
+    "color": "#4078f2"
+  },
+  "Type": {
+    "color": "#a626a4"
+  },
+  "Number": {
+    "color": "#986801"
+  },
+  "Operator": {
+    "color": "#a626a4",
+    "bold": true
+  },
+  "Instruction" : {
+    "color": "#a626a4",
+    "bold": true
+  },
+  "Stock" : {
+    "color": "#a626a4",
+    "italic": true,
+    "bold": true
+  }
+}
